@@ -11,7 +11,8 @@ import androidx.compose.ui.tooling.preview.Preview
 @Composable
 fun SignUpScreen() {
     Surface(color = Color.White,
-            modifier = Modifier.fillMaxSize()) {
+            modifier = Modifier.fillMaxSize()
+    ) {
 
     }
 }
@@ -19,4 +20,11 @@ fun SignUpScreen() {
 @Preview
 @Composable
 
-fun Default
+fun DefaultPreviewSingUpScreen(){
+    SingUpScreen()
+}
+
+
+
+
+
