@@ -21,7 +21,6 @@ fun SignUpScreen() {
 @Composable
 
 fun DefaultPreviewSingUpScreen(){
-    SingUpScreen()
 }
 
 
