@@ -34,7 +34,10 @@ fun NormalTextComponent(values:String){
         , color = colorResource(id = R.color.colorText),
         textAlign = TextAlign.Center
     )
-}
+} //NormalTextComponent
+
+
+
 @Composable
 
 fun HeadingTextComponent(values:String){
@@ -52,5 +55,5 @@ fun HeadingTextComponent(values:String){
         , color = colorResource(id = R.color.colorText),
         textAlign = TextAlign.Center
     )
-}
+} //HeadingTextComponent
 

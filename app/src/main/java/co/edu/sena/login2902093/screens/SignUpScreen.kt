@@ -1,6 +1,7 @@
 package co.edu.sena.login2902093.screens
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Surface
@@ -23,10 +24,16 @@ fun SignUpScreen() {
                 .background(Color.White)
                 .padding(28.dp)
     ) {
-        NormalTextComponent(values = stringResource(id = R.string.hello))
-        HeadingTextComponent()
-    }
-}
+        Column(modifier = Modifier.fillMaxSize()) {
+
+
+            NormalTextComponent(values = stringResource(id = R.string.hello))
+            HeadingTextComponent(values = stringResource(id = R.string.create_account))
+
+        }
+
+    } //Surface
+} //SignUpScreen
 
 
 @Preview
@@ -38,8 +45,8 @@ fun DefaultPreviewSingUpScreen(){
         modifier = Modifier.fillMaxSize()
     ) {
         NormalTextComponent(values = stringResource(id = R.string.hello))
-    }
-}
+    } //Surface
+} //DefaultPreviewSingUpScreen
 
 
 
